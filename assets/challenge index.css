@@ -1,0 +1,199 @@
+
+body {
+    font-family: 'Arial';
+    font-style: normal;
+}
+
+.main {
+    background: #F1F3FF;
+    width: 100%;
+    height: auto;
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    position: relative;
+    width: 100px;
+    height: 34px;
+    left: 136px;
+    top: 25px;
+    background: #0D28A6;
+}
+
+.navigation {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navigation,ul {
+    display: flex;
+    gap: 33px;
+    list-style: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn-nav-mobile {
+    display: none;
+}
+
+/*
+.parent-card-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 16px;
+}
+
+.card-nav {
+    width: 100%;
+    height: 70px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    line-height: 1;
+}
+
+Navigation,ul {
+    line-height: 2.5;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.header-child {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 136px;
+}
+*/
+.parent-grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 16px; */
+}
+.card {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #000000; */
+}
+
+.title-header-child {
+    padding: 6rem 1rem 1rem 8rem;
+    width: 29rem;
+}
+
+.judul {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+.konten {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.car-display {
+    position: relative;
+    top: 2rem;
+}
+
+.best-car-rental {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-best-car {
+    border: 1px solid black;
+}
+
+.best-car-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.best-car-content {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-why-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border: 1px solid black; */
+    gap: 3rem;
+}
+
+.title-why-us {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.why-us {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.list-content-why-us {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.section-why-us {
+    padding: 8rem;
+}
+
+.list-why-us {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    border: 1px solid #d0d0d0 ;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+@media screen and (max-width: 414px) {
+       navigation, ul {
+        display: none;
+    }
+    
+    .title {
+        position: relative;
+        left: 0rem;
+        top: 25px
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-nav-mobile {
+        display: flex;
+    }
+  }
