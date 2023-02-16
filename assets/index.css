@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+.test-class-a {
+    display: block;
+    float: left;
+    margin: 20px;
+}
+
+.test-class-b {
+    display: block;
+    float: right;
+    margin: 20px;
+}
+
+.main {
+    background: #F1F3FF;
+    width: 100%;
+    height: 500px;
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    position: relative;
+    width: 100px;
+    height: 34px;
+    left: 136px;
+    top: 25px;
+    background: #0D28A6;
+}
+
+.navigation {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navigation,ul {
+    display: flex;
+    gap: 33px;
+    list-style: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.parent-card-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 16px;
+}
+
+.card-nav {
+    width: 100%;
+    height: 70px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    line-height: 1;
+}
+
+Navigation,ul {
+    line-height: 2.5;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.header-child {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 136px;
+}
+.parent-grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.card {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    background: blue;
+}
+
+.parent-grid-bawah {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+
